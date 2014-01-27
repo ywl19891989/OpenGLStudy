@@ -1,7 +1,7 @@
 
 LIBS:=-lopengl32 -lglu32 -lglut32 -lglut32win -lwinmm -gdi32
 
-Target:=hello
+Target:=double
 TargetDir:=./Debug
 OBJSDir:=$(TargetDir)/src
 SRCDir:=./src

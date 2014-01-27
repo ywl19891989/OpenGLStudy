@@ -1,9 +1,9 @@
 //============================================================================
-// Name        : App.cpp
+// Name        : hello.c
 // Author      : wenlong
 // Version     :
 // Copyright   : All copyrights reserved
-// Description : Hello World in C++, Ansi-style
+// Description : Hello OpenGL in c, Ansi-style
 //============================================================================
 
 #include  <windows.h>
