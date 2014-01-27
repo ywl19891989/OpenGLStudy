@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 LIBS:=-lopengl32 -lglu32 -lglut32 -lglut32win -lwinmm -gdi32
+=======
+LIBS:=-lopengl32 -lglu32 -lglut32 -lglut32 -lwinmm -gdi32
+>>>>>>> 006a7307419ab8cf57ff410435cc4f1e99c6fe01
 
 TargetDir:=./Debug
 OBJSDir:=$(TargetDir)/src
