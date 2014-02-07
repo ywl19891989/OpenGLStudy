@@ -11,8 +11,10 @@
 
 GLfloat spin = 0.0f;
 int rotate = -1;
-GLfloat starAngle = M_PI * 2 * 0.1f;
-GLfloat a = tan(starAngle * 0.5f);
+int starAngle = 36;
+int rotateAngle = 360/5;
+GLfloat starRadian = (starAngle / 360.0f) * M_PI * 2;
+GLfloat a = tan(starRadian * 0.5f);
 
 void init(void) {
 	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
@@ -28,7 +30,7 @@ void display() {
 			glColor3f(1, 0, 0);
 			glPushMatrix();
 			for (int i = 0; i < 5; i++) {
-				glRotatef(72, 0.0, 0.0, 1.0);
+				glRotatef(rotateAngle, 0.0, 0.0, 1.0);
 				glBegin(GL_TRIANGLES);
 				{
 					glVertex2f(-a, 0);
